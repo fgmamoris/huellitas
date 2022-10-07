@@ -17,3 +17,10 @@
 
 /* 576px
 Medium	md	≥768px */
+
+@media only screen and (max-width: 449px) {
+  .content-img {
+    overflow: hidden;
+    max-height: 100px;
+  }
+}
