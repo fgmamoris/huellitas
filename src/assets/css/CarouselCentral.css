@@ -1,0 +1,40 @@
+@media only screen and (min-width: 464px) and (max-width: 600px) {
+  #contact-content {
+    flex-direction: column !important;
+  }
+  #img-content {
+    width: auto !important;
+  }
+  #form-content {
+    background-color: aqua !important;
+    width: 100% !important;
+    margin: auto;
+  }
+  #form-content > span {
+    margin-top: 10px;
+    margin-bottom: 10px !important;
+  }
+  #button-form-contact {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .link-footer {
+    font-size: 2rem;
+  }
+
+  .text-footer {
+    padding: 5px 3px;
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 992px) {
+  .link-footer {
+    font-size: 2rem;
+  }
+
+  .text-footer {
+    padding: 5px 3px;
+    font-size: 0.8rem;
+  }
+}

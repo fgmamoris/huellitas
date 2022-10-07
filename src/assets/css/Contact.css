@@ -1,0 +1,11 @@
+@media only screen and (min-width: 450px) and (max-width: 992px) {
+  #contact-content {
+    flex-direction: column !important;
+  }
+  .img-contact {
+    width: 100% !important;
+  }
+  .form-content {
+    width: 100% !important;
+  }
+}

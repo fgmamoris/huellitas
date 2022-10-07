@@ -1,0 +1,31 @@
+.link-footer {
+  outline-style: none;
+  border-radius: 50%;
+  border: none;
+  font-size: 2rem;
+}
+.copyrigth {
+  background-color: 'secondary';
+  width: '100%';
+}
+.text-footer {
+  padding: 11px 5px;
+  font-size: 1rem;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 800px) {
+  .link-footer {
+    font-size: 2rem;
+  }
+
+  .text-footer {
+    padding: 5px 3px;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 992px) {
+  .link-footer {
+    font-size: 2rem;
+  }
+}
