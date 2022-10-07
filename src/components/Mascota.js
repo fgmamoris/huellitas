@@ -10,10 +10,15 @@ const Mascota = ({ mascota, toggleModal, toggleSelection }) => {
     <Card className="card">
       <div className="content-img">
         <img
+          src={mascota.img}
+          className="w-100 img-mascota"
+          alt={`imagen de ${mascota.nombre}`}
+        ></img>
+        {/* <img
           alt={`imagen de ${mascota.nombre}`}
           src={mascota.img}
           className="img-fluid img-mascota"
-        />
+        /> */}
       </div>
 
       <CardBody>

@@ -7,12 +7,11 @@
 }
 .content-img {
   overflow: hidden;
-  max-height: 250px;
-  height: 250px;
+  height: 280px;
+  width: 100%;
 }
 .img-mascota {
   border-radius: 20px 20px 0 0;
-  width: 100%;
 }
 
 /* 576px
@@ -20,7 +19,53 @@ Medium	md	≥768px */
 
 @media only screen and (max-width: 449px) {
   .content-img {
-    overflow: hidden;
-    max-height: 100px;
+    height: 10rem;
+  }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 599px) {
+  .content-img {
+    height: 12rem;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .content-img {
+    height: 13rem;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 880px) {
+  .content-img {
+    height: 14rem;
+  }
+}
+
+@media only screen and (min-width: 881px) and (max-width: 992px) {
+  .content-img {
+    height: 18rem;
+  }
+}
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .content-img {
+    height: 200px;
+  }
+}
+@media only screen and (min-width: 1201px) and (max-width: 1440px) {
+  .content-img {
+    height: 250px;
+  }
+}
+@media only screen and (min-width: 1441px) and (max-width: 1660px) {
+  .content-img {
+    height: 300px;
+  }
+}
+@media only screen and (min-width: 1661px) and (max-width: 1920px) {
+  .content-img {
+    height: 320px;
+  }
+}
+@media only screen and (min-width: 1921px) {
+  .content-img {
+    height: 340px;
   }
 }
